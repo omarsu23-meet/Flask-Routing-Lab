@@ -13,6 +13,9 @@ app = Flask(  # Create a flask app
 def ebay():
     return render_template("home.html")
 
+@app.route('/product')
+def prod():
+    return render_template("product.html")
 
 # Your code should be above
 
