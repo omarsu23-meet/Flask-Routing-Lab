@@ -17,6 +17,18 @@ def ebay():
 def prod():
     return render_template("product.html")
 
+@app.route('/cart')
+def cart():
+    return render_template("cart.html")
+
+@app.route('/basket')
+def basketball():
+    return render_template("probasket.html")
+
+@app.route('/base')
+def baseball():
+    return render_template("probase.html")
+
 # Your code should be above
 
 if __name__ == "__main__":  # Makes sure this is the main process

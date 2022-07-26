@@ -24,20 +24,20 @@
   margin: auto;
   text-align: center;
   font-family: arial;">
-      <!--<div class="col-sm-4">--><img src="static/football.avif" alt="Denim Jeans" width="100%" >
+      <!--<div class="col-sm-4">--><img src="static/Basketball.png" alt="Denim Jeans" width="100%" >
       <br>
     <br>
       <!--<div class="col-sm-4" style="border-style: solid">-->
     
     <strong style="color: grey;
-  font-size: 22px;">Price: 15$</strong>
+  font-size: 22px;">Price: 20$</strong>
     <br>
-    <h3>Color: snow white</h3>
+    <h3>Color: brown with black stripes</h3>
  
       
     
       <!--<div class="col-sm-4" style="border-style : solid">-->
-    <h3>DESCRIPTION: The best offer that you can get for an original football, and it comes with a free shipping service
+    <h3>DESCRIPTION: The best offer that you can get for an original basketball, and it comes with a free shipping service
     </h3>  
    
  
@@ -60,7 +60,7 @@
   <br>
   <br>
 
-    <center><button id ="home" onclick.src="location.href='/'" style="border: none;
+    <center><button id ="home" onclick="location.href='/'" style="border: none;
   outline: 0;
   padding: 12px;
   color: white;
@@ -70,18 +70,25 @@
   width: 100%;
   font-size: 18px;">Home Page</button></center>
 
-<script type="text/javascript">
+    <script type="text/javascript">
 
-    document.getElementByID("home").onclick = function{
-        location.href = "/"
+    document.getElementByID("home").onclick = function hi(){
+        location.href = "templates/home.html"
     }
 
-    document.getElementByID("cart").onclick = function{
-        location.href = "/cart"
+    document.getElementByID("cart").onclick = function hello(){
+        location.href = "templates/cart.html"
     }
 
-</script>
+    hi()
+    hello()
+
+    </script>
 
 </body>
+
+
+
+
 
 </html>
