@@ -47,7 +47,7 @@
     <br>
     <br>
 
-    <center><button id ="cart" onclick.src="location.href='/cart'" style="border: none;
+    <center><a href="{{url_for('cart')}}"><button style="border: none;
   outline: 0;
   padding: 12px;
   color: white;
@@ -60,7 +60,7 @@
   <br>
   <br>
 
-    <center><button id ="home" onclick.src="location.href='/'" style="border: none;
+    <center><a href="{{url_for('ebay')}}"><button style="border: none;
   outline: 0;
   padding: 12px;
   color: white;
@@ -68,19 +68,8 @@
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;">Home Page</button></center>
+  font-size: 18px;">Home Page</button></a></center>
 
-<script type="text/javascript">
-
-    document.getElementByID("home").onclick = function{
-        location.href = "/"
-    }
-
-    document.getElementByID("cart").onclick = function{
-        location.href = "/cart"
-    }
-
-</script>
 
 </body>
 
