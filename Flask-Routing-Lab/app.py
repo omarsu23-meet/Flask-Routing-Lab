@@ -22,7 +22,7 @@ def cart():
     return render_template("cart.html")
 
 @app.route('/basket')
-def basketball():
+def basketbal():
     return render_template("probasket.html")
 
 @app.route('/base')
